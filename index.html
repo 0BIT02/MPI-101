@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Sistemas de numeracion</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <img src="img/incos-beni.jpg" alt="">
+                    <h1>/INCOS-BENI/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sistemasdenumeracion" onclick="seleccionar(this)">SISTEMAS DE NUMERACION</a></li>
+                            <li><a href="#converciones" onclick="seleccionar(this)">CONVERSIONES</a></li>
+                            <li><a href="#footer" onclick="seleccionar(this)">INTEGRANTES</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">MPI-101</p>
+                <h2>Pagina Web dedicada a los <span>Sistemas de numeracion</span>, y sus converciones</h2>
+                <p class="descripcion">Aqui se podra encontrar la definicion de lo que son los sistemas de numeracion y sus converciones junto a ejemplos para ayudarte a entender mejor </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION sistemasdenumeracion -->
+    <section id="sistemasdenumeracion">
+        <div class="sobremi">
+            <p class="titulo-seccion">Sistemas de Numeracion</p>
+            <h2><span>Introduccion</span> </h2>
+            <h3>La computadora</h3>
+            <p>debido a su construccion basada principalmente en circuitos electronicos digitales. Lo hace con el sistema binario, utilizando una serie de codigos que permiten su perfecto funcionamiento</p>
+            <p>La representacion de un numero se efectua por medio de cadenas de simbolos los cuales representan una determinada cantidad dependiendo de cada simbolo y la posicion que ocupa dentro de la computadora con respecto al punto decimal.</p>
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Definicion de Sistemas de Numeracion</p>
+            <p>Es un conjunto de simbolos y reglas de generacion que permiten construir todos los numeros validos en el sistema.</p>
+            <p>Estos sistemas pueden clasificarse en 3 grupos que son...</p>
+            <ul>
+                <li>
+                    <h3>SISTEMAS NO-POSICIONALES</h3>
+                </li>
+                <li>
+                    <h3>SISTEMAS SEMI-POSICIONALES</h3>
+                </li>
+                <li>
+                    <h3>SISTEMAS POSICIONALES</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SECCION converciones -->
+    <section id="converciones">
+        <h3 class="titulo-seccion">Converciones entre sistemas numericos <br><br></h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/binario-decimal.html"><img src="img/binario-a-decimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>CONVERSION</h4>
+                    <p>Binario a Decimal</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/binario-hexadecimal.html"><img src="img/binario-a-hexadecimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>CONVERSION</h4>
+                    <p>Binario a Hexadecimal</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/binario-octal.html"><img src="img/binario-a-octal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/decimal-binario.html"><img src="img/decimal-a-binario-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/decimal-hexadecimal.html"><img src="img/decimal-a-hexadecimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/decimal-octal.html"><img src="img/decimal-a-octal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/hexadecimal-binario.html"><img src="img/hexadecimal-a-binario-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/hexadecimal-decimal.html"><img src="img/hexadecimal-a-decimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/hexadecimal-octal.html"><img src="img/hexadecimal-a-octal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/octal-binario.html"><img src="img/octal-a-binario-port.png" alt=""></a>
+                <div class="info">
+                    <h4>CONVERSION</h4>
+                    <p>Binario a Decimal</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/octal-decimal.html"><img src="img/octal-a-decimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>CONVERSION</h4>
+                    <p>Binario a Hexadecimal</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="conversiones/octal-hexadecimal.html"><img src="img/octal-a-hexadecimal-port.png" alt=""></a>
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="footer">
+            <p>INTEGRANTES</p>
+            <p>GABRIEL GONZALES YUCO</p>
+            <p>ROXANA YUCO YPAMO</p>
+        </section>
+    </footer>
+</body>
+</html>

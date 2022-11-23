@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../estilos/estilo2.css">
+    <title>Sistemas de numeracion</title>
+</head>
+<body background="../img/Fondo.jpg">
+    <section id="inicio2">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/INCOS-BENI/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html" onclick="seleccionar(this)">MAS CONVERSIONES</a></li>
+                            <li><a href="#footer" onclick="seleccionar(this)">INTEGRANTES</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+<!-- SECCION DEFINICION -->
+<section id="sistemasdenumeracion2">
+    <div class="sobremi">
+        <h2><span>Hexadecimal a Octal</span> </h2>
+        <h3>¿Que es el sistema Hexadecimal a Octal?</h3>
+        <p>En el sistema hexadecimal podemos escribir números como AB210, 23C20D, B3F21, DAE21B, etc, es decir, es un sistema de números y letras (con base de dieciséis) cuyos posibles valores numéricos y letras pueden ser (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) para números y (A,B,C,D,E,F) para letras por cada valor posicional, mientras que en el caso del sistema octal podemos escribir números como 1247, 7561, 571, 6572, 157, es decir, es un sistema de números (con base de ocho) cuyos posibles valores numéricos pueden ser (0, 1, 2, 3, 4, 5, 6, 7) por cada valor posicional.
+        </p>
+        <p>El sistema hexadecimal a octal es el proceso por el cual convertiremos cualquier numero hexadecimal en un numero octal.
+        </p>
+        <h3>¿Como se convierte de Hexadecimal a Octal?</h3>
+        <p>el proceso para saber como convertir un numero hexadecimal a octal es bastante sencillo, dicho proceso de conversión se basa en pasar el numero hexadecimal a binario y posteriormente pasar ese numero binario a octal, para ello vamos a contar con dos tablas de conversión que veremos a continuación, una de ellas sera la tabla de conversión hexadecimal a binario y la otra sera la tabla de conversión binario a octal.
+        </p>
+        <p>Tabla conversora de HEXADECIMAL a BINARIO
+            Tabla para convertir números de hexadecimal a binario.</p>
+        <img src="../img/hexadecimal-a-binario-tabla1.png" alt="">
+        <p>Tabla para convertir números de BINARIO a OCTAL Esta tabla te servirá para convertir números binarios al sistema de numeración octal.</p>
+        <img src="../img/binario-a-octal-tabla1.png" alt="">
+    </div>
+    <div class="sobremi">
+        <p>El primer paso para convertir un numero hexadecimal en octal es convertir el numero hexadecimal a binario, para ello, nos ayudaremos de la tabla conversora hexadecimal a binario de arriba y traduciremos el numero hexadecimal escribiendo debajo de cada dígito la correspondencia en binario.</p>
+    </div>
+    <img src="../img/decimal-a-octal1.png" alt="">
+    <div class="sobremi">
+        <p>Obtenido el numero binario realizaremos la conversión de binario a octal, empezando por separar el numero binario en bloques de 3 dígitos empezando desde la derecha hasta la izquierda,  tomaremos ayuda de la tabla de conversión binario a octal que hemos visto mas arriba y sustituiremos cada bloque de dígitos binarios por su correspondiente equivalente en octal, de esta forma y así de rápido ya sabes como convertir un numero hexadecimal a octal de forma manual.
+        </p>
+    </div>
+    <img src="../img/decimal-a-octal2.png" alt="">
+    <div class="sobremi">
+        <p>Como puedes comprobar el proceso para realizar la conversión hexadecimal a octal es sencilla, si quieres puedes ver todas los demas conversores numéricos que tienes en la pagina principal.
+        </p>
+    </div>
+</section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="footer">
+            <p>INTEGRANTES</p>
+            <p>GABRIEL GONZALES YUCO</p>
+            <p>ROXANA YUCO YPAMO</p>
+        </section>
+    </footer>
+</body>
+</html>

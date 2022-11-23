@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../estilos/estilo2.css">
+    <title>Sistemas de numeracion</title>
+</head>
+<body background="../img/Fondo.jpg">
+    <section id="inicio2">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/INCOS-BENI/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html" onclick="seleccionar(this)">MAS CONVERSIONES</a></li>
+                            <li><a href="#footer" onclick="seleccionar(this)">INTEGRANTES</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+<!-- SECCION DEFINICION -->
+<section id="sistemasdenumeracion2">
+    <div class="sobremi">
+        <h2><span>Hexadecimal a Binario</span> </h2>
+        <h3>¿Que es el sistema Hexadecimal a Binario?</h3>
+        <p>En el sistema hexadecimal podemos escribir números como 3ADF3, 1A1B1C, B31, DAB, etc, es decir, es un sistema de números y letras (con base de dieciséis) cuyos posibles valores numéricos y letras pueden ser (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) para números y (A,B,C,D,E,F) para letras por cada valor posicional, mientras que en el caso del sistema binario solo podemos escribir números como 01100111, 1110, 011, 1, etc, es decir, números (con base de dos) cuyos unicos dos posibles valores (0 y 1) por cada valor posicional / digito.
+        </p>
+        <p>El sistema hexadecimal a binario es el proceso por el cual convertiremos cualquier numero hexadecimal en un numero binario.</p>
+    </div>
+    <img src="../img/hexadecimal-a-binario-tabla1.png" alt="">
+    <div class="sobremi">
+        <h3>¿Como se convierte de Hexadecimal a Binario?</h3>
+        <p>el proceso para saber como convertir el numero hexadecimal a binario es realmente fácil y sencillo, dicho proceso de conversión se basa tan solo en sustituir cada dígito del numero hexadecimal por los CUATRO (4) dígitos binarios que le corresponden.
+        </p>
+        <p>Nota: En la tabla de mas arriba puedes ver la equivalencia binaria para cada uno de los posibles dígitos de tu numero hexadecimal.
+        </p>
+    </div>
+    <img src="../img/hexadecimal-a-binario1.png" alt="">
+    <div class="sobremi">
+        <p>En este proceso habremos creado una cadena de valores numericos de CEROS (0) y UNOS (1) que al agruparlos (y eliminando los ceros de la izquierda en caso de que existan) obtendremos el numero binario correspondiente al numero hexadecimal que hayamos querido convertir.
+        </p>
+        <p>Como puedes comprobar el proceso para realizar la conversión hexadecimal a binario es sencilla, si quieres puedes ver todas los demas conversores numéricos que tienes en la pagina principal.
+        </p>
+    </div>
+</section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="footer">
+            <p>INTEGRANTES</p>
+            <p>GABRIEL GONZALES YUCO</p>
+            <p>ROXANA YUCO YPAMO</p>
+        </section>
+    </footer>
+</body>
+</html>

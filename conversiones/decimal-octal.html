@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../estilos/estilo2.css">
+    <title>Sistemas de numeracion</title>
+</head>
+<body background="../img/Fondo.jpg">
+    <section id="inicio2">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/INCOS-BENI/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html" onclick="seleccionar(this)">MAS CONVERSIONES</a></li>
+                            <li><a href="#footer" onclick="seleccionar(this)">INTEGRANTES</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+<!-- SECCION DEFINICION -->
+<section id="sistemasdenumeracion2">
+    <div class="sobremi">
+        <h2><span>Decimal a Octal</span> </h2>
+        <h3>¿Que es el sistema Decimal a Octal?</h3>
+        <p>En el sistema decimal podemos escribir números como 48783, 67284, 85130, etc, es decir, es un sistema de números (con base de diez) teniendo así diez valores posibles (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) por cada valor posicional. Mientras que en el caso del sistema octal podemos escribir números como 12457, 7561, 4571, 65742, 16457, es decir, es un sistema de números (con base de ocho) cuyos posibles valores numéricos pueden ser (0, 1, 2, 3, 4, 5, 6, 7) por cada valor posicional.
+        </p>
+        <p>El sistema decimal a octal es el proceso por el cual convertiremos cualquier numero decimal en un numero octal.
+        </p>
+        <h3>¿Como se convierte de Decimal a Octal?</h3>
+        <p>Eel proceso para saber como convertir el numero decimal a octal es sencillo, dicho proceso de conversión se basa en dividir entre 8 el numero decimal que queremos convertir en octal, tratando la división como una división entera sin decimales, anotar el resto y continuar dividendo el cociente obtenido entre ocho sucesivamente hasta conseguir un cociente final cuyo valor sea de entre 1 y 7.
+        </p>
+    </div>
+    <img src="../img/decimal-a-octal1.png" alt="">
+    <div class="sobremi">
+        <p>En este proceso habremos creado una cadena de números con los restos de las divisiones y el cociente de la división final, estos valores numéricos serán de entre 7 y 0, los ordenaremos de derecha a izquierda y de esta forma obtendremos el numero octal correspondiente al numero decimal que hayamos querido convertir.
+        </p>
+    </div>
+    <img src="../img/decimal-a-octal2.png" alt="">
+    <div class="sobremi">
+        <p>Como puedes comprobar el proceso para realizar la conversión decimal a octal es sencilla, si quieres puedes ver todas los demas conversores numéricos que tienes en la pagina principal.
+        </p>
+    </div>
+</section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="footer">
+            <p>INTEGRANTES</p>
+            <p>GABRIEL GONZALES YUCO</p>
+            <p>ROXANA YUCO YPAMO</p>
+        </section>
+    </footer>
+</body>
+</html>

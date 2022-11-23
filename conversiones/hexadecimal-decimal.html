@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../estilos/estilo2.css">
+    <title>Sistemas de numeracion</title>
+</head>
+<body background="../img/Fondo.jpg">
+    <section id="inicio2">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/INCOS-BENI/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="../index.html" onclick="seleccionar(this)">MAS CONVERSIONES</a></li>
+                            <li><a href="#footer" onclick="seleccionar(this)">INTEGRANTES</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+<!-- SECCION DEFINICION -->
+<section id="sistemasdenumeracion2">
+    <div class="sobremi">
+        <h2><span>Hexadecimal a Decimal</span> </h2>
+        <h3>¿Que es el sistema Hexadecimal a Decimal?</h3>
+        <p>En el sistema hexadecimal podemos escribir números como AB10, 23C0D, B3F1, DAE1B, etc, es decir, es un sistema de números y letras (con base de dieciséis) cuyos posibles valores numéricos y letras pueden ser (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) para números y (A,B,C,D,E,F) para letras por cada valor posicional, mientras que en el caso del sistema decimal podemos escribir números como 4023, 673, 8322, etc, es decir, es un sistema de números (con base de diez) teniendo así diez valores posibles (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) por cada valor posicional.
+        </p>
+        <p>El sistema hexadecimal a decimal es el proceso por el cual convertiremos cualquier numero hexadecimal en un numero decimal.
+        </p>
+        <p>Esta es la tabla de conversión decimal a hexadecimal correspondiente a todos los posibles dígitos de un numero hexadecimal:
+        </p>
+    </div>
+    <img src="../img/hexadecimal-a-decimal-tabla1.png" alt="">
+    <div class="sobremi">
+        <h3>¿Como se convierte de Hexadecimal a Decimal?</h3>
+        <p>el proceso para saber como convertir un numero de hexadecimal a decimal es sencillo, dicho proceso de conversión se basa en ir reemplazando cada dígito del numero hexadecimal por el equivalente numero decimal según la posición de dicho dígito hexadecimal en el numero, multiplicar este por la potencia de DIECISÉIS (16) correspondiente a cada uno de ellos y sumar todo.
+        </p>
+        <p>Vemos el proceso, el primer paso que debemos hacer es, escribir debajo de cada dígito hexadecimal el numero decimal equivalente, puedes ayudarte de la tabla de conversión de mas arriba para hacer una exportación correcta.
+        </p>
+    </div>
+    <img src="../img/hexadecimal-a-decimal1.png" alt="">
+    <div class="sobremi">
+        <p>El siguiente paso sera, escribir debajo de cada valor decimal obtenido la potencia con base de DIECISÉIS (16) correspondiente de derecha a izquierda, dándole a la primera potencia 16<sup>0</sup> el valor UNO (1).
+        </p>
+    </div>
+    <img src="../img/hexadecimal-a-decimal2.png" alt="">
+    <div>
+        <p>Multiplicaremos ahora cada valor decimal por la potencia de DIECISÉIS (16) correspondiente a cada posición, anotaremos el producto de todas las multiplicaciones y cuando terminemos este proceso sumaremos los resultados.
+        </p>
+        <p>Nota: Recuerda que el primer dígito empezando por la derecha tiene una potencia de 16<sup>0</sup> que deduciremos su valor por UNO (1).
+        </p>
+    </div>
+    <img src="../img/hexadecimal-a-decimal3.png" alt="">
+    <div class="sobremi">
+        <p>Como puedes comprobar el proceso para realizar la conversión hexadecimal a decimal es sencilla, si quieres puedes ver todas los demas conversores numéricos que tienes en la pagina principal.
+        </p>
+    </div>
+</section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <section id="footer">
+            <p>INTEGRANTES</p>
+            <p>GABRIEL GONZALES YUCO</p>
+            <p>ROXANA YUCO YPAMO</p>
+        </section>
+    </footer>
+</body>
+</html>
